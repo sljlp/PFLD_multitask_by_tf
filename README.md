@@ -4,7 +4,7 @@ multitask network based on PFLD
 ## fix errors
  if there is any error in the codes , just remove the line in which the errors are
 ## load data
-refer to gen_data.py(https://github.com/sljlp/PFLD_multitask_by_tf/blob/master/gen_data.py)
+refer to [gen_data.py](https://github.com/sljlp/PFLD_multitask_by_tf/blob/master/gen_data.py)
 ### dadaset and annotation
 as for  my dataset and annotations  
 I have four kinds of dataset and for every dataset there is a especial indicates_str in gen_data.py
@@ -36,7 +36,7 @@ indicates_str = '''lmk 0 212
       But it has race_st, angles_by_st, expressions and etc.  
       We can infer by the numbers in the third col that lmk should be an array with length of 212 and race_gt should be an array with lenth of 4 and so on.  
 ## train
-refer to train_model_v4_dynamic_weights.py(https://github.com/sljlp/PFLD_multitask_by_tf/blob/master/train_model_v4_dynamic_weights.py) and train-scripts/train-v4-dynamic_weights.sh(https://github.com/sljlp/PFLD_multitask_by_tf/blob/master/train-scripts/train-v4-dynamic_weights.sh)  
+refer to [train_model_v4_dynamic_weights.py](https://github.com/sljlp/PFLD_multitask_by_tf/blob/master/train_model_v4_dynamic_weights.py) and [train-scripts/train-v4-dynamic_weights.sh](https://github.com/sljlp/PFLD_multitask_by_tf/blob/master/train-scripts/train-v4-dynamic_weights.sh)  
 change the parameters in train-scripts/train-v4-dynamic_weights.sh as you need and run this script  
 
 
