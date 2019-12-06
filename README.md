@@ -34,7 +34,7 @@ indicates_str = '''lmk 0 212
   That is :  
       the imdb dataset does not have attributes lmk, race_gt , angles_by_gt or etc.  
       But it has race_st, angles_by_st, expressions and etc.  
-      We can refer it by the numbers in the third col that lmk should be an array with length of 212 and race_gt should be an array with lenth of 4 and so on.  
+      We can infer by the numbers in the third col that lmk should be an array with length of 212 and race_gt should be an array with lenth of 4 and so on.  
 ## train
 refer to train_model_v4_dynamic_weights.py and train-scripts/train-v4-dynamic_weights.sh
 change the parameters in train-scripts/train-v4-dynamic_weights.sh as you need and run this script
