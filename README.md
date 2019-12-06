@@ -5,7 +5,7 @@ multitask network based on PFLD
  if there is any error in the codes , just remove the line in which the errors are
 ## load data
 refer to gen_data.py
-## dadaset and annotation
+### dadaset and annotation
 as for  my dataset and annotations  
 I have four kinds of dataset and for every dataset there is a especial indicates_str in gen_data.py
 every line in the indicate_str represent an attribute and the first follwing number indicates whether the attribute is recorded in the annotation file . The second following number indicates how many values the attribute has or how long the array representing the attributs is.  
